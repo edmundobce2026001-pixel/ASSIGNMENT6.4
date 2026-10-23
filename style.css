@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+}
+
+/* 2. Position: sticky */
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #0056b3;
+    padding: 15px;
+    z-index: 1000; /* 6. Control overlapping */
+}
+
+.sticky-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+header {
+    padding: 40px 20px;
+    background: #ffffff;
+}
+
+/* 3. Position: fixed */
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 999;
+}
+
+
+.relative-card {
+    position: relative;
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    padding: 30px;
+    margin: 40px 20px;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+
+.absolute-badge {
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    background-color: #ffc107;
+    color: #333;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+}
